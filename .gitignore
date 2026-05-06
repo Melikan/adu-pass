@@ -46,3 +46,8 @@ app.*.map.json
 
 # Local Python environment (for face recognition script)
 .venv/
+
+# Firebase / service credentials (never commit secrets)
+serviceAccountKey.json
+**/GoogleService-Info.plist
+**/google-services.json
